@@ -14,6 +14,19 @@
   }
 }
 
+.horizontal-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Thêm cho việc cuộn mượt mà trên iOS */
+  scrollbar-width: none; /* Ẩn thanh cuộn trên các trình duyệt hỗ trợ mới */
+  -ms-overflow-style: none; /* Ẩn thanh cuộn trên Internet Explorer */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn trên các trình duyệt dựa trên WebKit như Chrome và Safari */
+}
+
+
 @media (max-width: 768px) { /* Đây là giả sử, bạn có thể điều chỉnh kích thước theo nhu cầu của mình */
 
   /* Sidebar Toggler */

@@ -1,0 +1,179 @@
+.bg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -1.07%;
+  bottom: 0;
+  left: 1.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icondashboard {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.dashboard2 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.dashboard1 {
+  background-color: var(--primary-color-primary-extra-2);
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  color: var(--primary-color-primary-color);
+}
+.iconcampaign {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.campaign1 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.campaign {
+  background-color: var(--whitsh-pure-white);
+}
+.campaign,
+.payment {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.lightdark-child {
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--whitsh-pure-white);
+  box-shadow: 10px 10px 20px rgba(211, 211, 211, 0.25);
+  width: 48px;
+  height: 48px;
+  display: none;
+}
+.nav-bar11 {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.iconup {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.fundrising-for {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.iconarrowdown {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.fundraising {
+  position: absolute;
+  height: 3.25%;
+  width: 41.59%;
+  top: 4.51%;
+  right: 52.29%;
+  bottom: 92.24%;
+  left: 6.12%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: var(--size-12-size-12-semi-bold-size);
+  color: var(--text-color-text-2);
+}
+.nav-bar1 {
+  position: absolute;
+  height: 68.23%;
+  width: 87.2%;
+  top: 11.82%;
+  right: 6.4%;
+  bottom: 19.95%;
+  left: 6.4%;
+}
+.logo-mobile-child {
+  position: relative;
+  width: 20.36px;
+  height: 18.1px;
+  object-fit: cover;
+}
+.button,
+.logo-mobile,
+.top-bar1 {
+  display: flex;
+  align-items: center;
+}
+.logo-mobile {
+  border-radius: 7.69px;
+  background-color: var(--color-darkslategray);
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10.769230842590332px var(--padding-3xs);
+  box-sizing: border-box;
+}
+.button,
+.top-bar {
+  flex-direction: row;
+}
+.button {
+  border-radius: var(--br-8xs);
+  background-color: var(--secondary-color-secondary-20);
+  width: 166px;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-smi);
+  box-sizing: border-box;
+}
+.top-bar {
+  position: absolute;
+  top: 26px;
+  left: 24px;
+  justify-content: flex-start;
+  gap: 48px;
+  color: var(--whitsh-pure-white);
+}
+.dashboard {
+  position: relative;
+  background-color: var(--whitsh-lite-background);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--size-14-size-14-medium-size);
+  color: var(--text-color-text-3);
+  font-family: var(--size-12-size-12-semi-bold);
+}
